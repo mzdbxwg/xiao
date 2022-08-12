@@ -2,11 +2,11 @@
 
 int main()
 {
-	int i, j;//iĞĞjÁĞ
+	int i, j;//iè¡Œjåˆ—
 	for (i = 1; i <= 9; i++)
 	{
 		for (j = 1; j <= i; j++)
-			printf("%d*%d=%-4d", i, j, i * j);//4ÁĞ¿í¶È×ó¶ÔÆë¿ØÖÆÊä³ö¶ÔÆë
+			printf("%d*%d=%-4d", i, j, i * j);//4åˆ—å®½åº¦å·¦å¯¹é½æ§åˆ¶è¾“å‡ºå¯¹é½
 		printf("\n");
 	}
 	return 0;
