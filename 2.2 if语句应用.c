@@ -4,7 +4,7 @@
 int main()
 {
 	int a,b;
-	printf("请输入两个数：");
+	printf("脟毛脢盲脠毛脕陆赂枚脢媒拢潞");
 	scanf("%d%d", &a,&b);
 
 	if (a != b)
