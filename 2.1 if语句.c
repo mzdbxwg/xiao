@@ -16,5 +16,5 @@ int main()
 		printf("不能进门！\n");
 		printf("慢走，不送！\n");
 	}
-
+	return 0;
 }
