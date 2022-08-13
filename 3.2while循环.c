@@ -1,12 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
-//´Ó1¼Óµ½100
+//ä»1åŠ åˆ°100
 int main()
 {
 	int i = 1;
-	int	total = 0; //´æÖü×îÖÕµÄºÍ
-	while (i<=100) //ÕâÀï²»ÄÜĞ´·ÖºÅ
+	int	total = 0; //å­˜è´®æœ€ç»ˆçš„å’Œ
+	while (i<=100) //è¿™é‡Œä¸èƒ½å†™åˆ†å·
 	{
 		total = total + i;
 		i++;
