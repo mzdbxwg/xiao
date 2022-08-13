@@ -1,11 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
-//´Ó1¼Óµ½100
+//ä»Ž1åŠ åˆ°100
 int main()
 {
 	int i, total;
-	//forÓï¾äÖÐÖ»ÄÜÓÐÁ½¸ö·ÖºÅ
+	//forè¯­å¥ä¸­åªèƒ½æœ‰ä¸¤ä¸ªåˆ†å·
 	for(i = 1, total = 0; i <= 100; i++)
 	{
 		total = total + i;
