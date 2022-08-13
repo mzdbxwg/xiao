@@ -1,20 +1,20 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
-//´Ó1¼Óµ½100,µ±ºÍ´óÓÚ2000Ê±ÖÕÖ¹Ñ­»·
+//ä»1åŠ åˆ°100,å½“å’Œå¤§äº2000æ—¶ç»ˆæ­¢å¾ªç¯
 int main()
 {
 	int i, total;
-	//forÓï¾äÖĞÖ»ÄÜÓĞÁ½¸ö·ÖºÅ
+	//forè¯­å¥ä¸­åªèƒ½æœ‰ä¸¤ä¸ªåˆ†å·
 	for (i = 1, total = 0; i <= 100; i++)
 	{
 		if (total>2000)
 		{
-			break;//µ±ºÍ´óÓÚ2000Ê±£¬forÑ­»·½áÊø,Ö±½Ó½øÈëprintf
+			break;//å½“å’Œå¤§äº2000æ—¶ï¼Œforå¾ªç¯ç»“æŸ,ç›´æ¥è¿›å…¥printf
 		}
 		total = total + i;
 	}
-	printf("total=%d£¬i=%d\n", total,i);
+	printf("total=%dï¼Œi=%d\n", total,i);
 	system("pause");
 	return 0;
 }
