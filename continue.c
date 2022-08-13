@@ -1,16 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
-//´Ó1¼Óµ½100,ÆæÊýÇóºÍ
+//ä»Ž1åŠ åˆ°100,å¥‡æ•°æ±‚å’Œ
 int main()
 {
 	int i, total;
-	//forÓï¾äÖÐÖ»ÄÜÓÐÁ½¸ö·ÖºÅ
+	//forè¯­å¥ä¸­åªèƒ½æœ‰ä¸¤ä¸ªåˆ†å·
 	for (i = 1, total = 0; i <= 100; i++)
 	{
-		if (i % 2 == 0)//Èç¹ûiÊÇÅ¼Êý
+		if (i % 2 == 0)//å¦‚æžœiæ˜¯å¶æ•°
 		{
-			continue;//ÌáÇ°½áÊø±¾ÂÖÑ­»·
+			continue;//æå‰ç»“æŸæœ¬è½®å¾ªçŽ¯
 		}
 		total = total + i;
 	}
