@@ -1,0 +1,10 @@
+#include<stdio.h>
+//函数格式：[返回值类型]函数名（形式参数表列）{函数体;}
+void hello()//自定义函数，void表示函数体没有返回值
+{
+printf("欢迎回来！\n"); //函数体
+}
+void main()//主函数
+{
+hello();//调用hello（）函数
+}
