@@ -4,7 +4,7 @@
 
 int main()
 {
-	//ÓÃforºÍcontinueÊµÏÖÆæÊıºÍ
+	//ç”¨forå’Œcontinueå®ç°å¥‡æ•°å’Œ
 
 	int i, total;
 	for (i = 1, total = 0; i <= 100; i++)
@@ -16,12 +16,12 @@ int main()
 		else
 		{
 			total += i;
-			printf("µ±Ç°i=%d\n", i);
-			printf("µ±Ç°total=%d\n", total);
+			printf("å½“å‰i=%d\n", i);
+			printf("å½“å‰total=%d\n", total);
 		}
 	}
 
-	printf("100ÒÔÄÚÆæÊıtotal = %d\n", total);
+	printf("100ä»¥å†…å¥‡æ•°total = %d\n", total);
 
 
 	system("pause");
