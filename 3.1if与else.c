@@ -6,10 +6,10 @@ int main()
 	int i;
 	while (scanf("%d", &i)!=EOF)
 	{
-		if (i > 0)//ifµÄÀ¨ºÅºóÃæÊÇ²»¿ÉÒÔ¼Ó·ÖºÅµÄ
+		if (i > 0)//ifçš„æ‹¬å·åé¢æ˜¯ä¸å¯ä»¥åŠ åˆ†å·çš„
 		{
 		printf("i is bigger than o\n");
-		}else {//ÉÏÃæµÄÌõ¼şÎª¼ÙÊ±£¬×ßelse
+		}else {//ä¸Šé¢çš„æ¡ä»¶ä¸ºå‡æ—¶ï¼Œèµ°else
 		printf("i is not bigger than 0\n");
 		}
 		
@@ -22,10 +22,10 @@ int main()
 	     else if(number>100)cost=0.075;
 		     else if(number>50)cost=0.005;
 			     else cost=o*
-				 ÉÏÃæÖ»ÓĞÒ»¸öÓï¾ä»áµÃµ½Ö´ĞĞ/
+				 ä¸Šé¢åªæœ‰ä¸€ä¸ªè¯­å¥ä¼šå¾—åˆ°æ‰§è¡Œ/
 /*if(i>1)
     if(i<10)
 	  printf("i>1 and i<10\n");
 	  else
 	  printf("no,they are not\n")
-	  ×¢Òâ´óÀ¨ºÅ*/
+	  æ³¨æ„å¤§æ‹¬å·*/
