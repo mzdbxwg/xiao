@@ -17,4 +17,4 @@ int main()//main是标识符
     printf("是否属于肥胖儿童：%c\n", isfat);//%c单个字符,%s字符串
     system("pause");
     return 0;
-}              //以下学习内容就接第一章1.3scanf的应用
+}
