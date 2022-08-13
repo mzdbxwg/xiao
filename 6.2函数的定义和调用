@@ -1,0 +1,16 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#define PI 3.1416
+
+double circu(double r)//函数定义,形参
+{
+return 2 * PI * r;
+}
+int main() //主函数
+{
+double mr, mc; //实参
+scanf("%lf", &mr);
+mc = circu(mr);
+printf("半径为%.2lf的圆的周长为%.2lf\n", mr, mc);
+}
+
