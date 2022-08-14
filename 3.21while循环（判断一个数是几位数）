@@ -1,6 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
+<<<<<<< HEAD
 //11111111111111133333
+=======
+//1111111111111112222222
+>>>>>>> fd0694750dc02a2a2509355c6e3a5528836639f6
 int main()
 {
 	int x;
